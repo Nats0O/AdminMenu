@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/app.js" type="text/javascript"></script>
+
+    <!-- FONT STYLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+
+    <!-- Fas fa icon -->
+    <script src="https://kit.fontawesome.com/2b98d1dd1f.js" crossorigin="anonymous"></script>
+
+    <style>
+        #container {
+            display: none;
+        }
+        
+        .fatture {
+            display: none;
+        }
+        
+        .auto {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="style_container" id="container">
+        <div class="header_banner">
+            <h1><i class="fas fa-chevron-left" onclick="VaiIndietro()" id="tastovaiindietro"></i>WOLF-DEVELOPMENT ADMIN MENU</h1>
+        </div>
+
+        <div class="search">
+            <input type="text" class="searchFill" id="myInput" onkeyup="searchFunction()" placeholder="Inserisci Nome Steam / Id" title="Type in a name">
+        </div>
+
+        <div>
+            <table class="playerlist" id="tabelka">
+                <tbody>
+                    <tr>
+                        <td class="legenda">NOME STEAM | ID | IDENTIFIER</td>
+                        <td class="legenda">KICK</td>
+                        <td class="legenda">GOTO</td>
+                        <td class="legenda">BRING</td>
+                        <td class="legenda">FREEZE</td>
+                        <td class="legenda">UNFREEZE</td>
+                        <td class="legenda">FATTURE</td>
+                        <td class="legenda">SCREENSHOT</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="fatture" id="tabelka">
+                <tbody>
+                    <tr>
+                        <td class="legenda">NOME FATTURA</td>
+                        <td class="legenda">IMPORTO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="nui://AdminMenu/html/js/app.js" type="text/javascript"></script>
+    <script src="nui://AdminMenu/html/js/script.js"></script>
+</body>
+
+</html>

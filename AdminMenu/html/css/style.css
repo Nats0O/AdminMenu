@@ -1,0 +1,192 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: rgba(6, 44, 241, 0.46);
+}
+
+::-webkit-scrollbar-corner {
+    background-color: rgba(6, 44, 241, 0.46);
+}
+
+::-webkit-resizer {
+    background-color: rgba(6, 44, 241, 0.46);
+}
+
+.header_banner {
+    width: 130vh;
+    height: 4vh;
+    background: rgb(7, 14, 39);
+    background: linear-gradient(43deg, rgba(7, 14, 39, 1) 0%, rgba(9, 19, 55, 1) 100%);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.searchFill {
+    border: none;
+    border-bottom: 0.125rem solid #4363d4;
+    width: 30%;
+    height: 1rem;
+    font-size: 1.0625rem;
+    padding-left: 0.875rem;
+    line-height: 147.6%;
+    padding-top: 0.825rem;
+    padding-bottom: 0.5rem;
+    background-color: #081030;
+    color: #EBEBED;
+    margin-left: 42.4%;
+    transform: translateX(-32%);
+    margin-top: 3%;
+}
+
+.header_banner h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid white;
+}
+
+.header_banner h1 i {
+    position: absolute;
+    left: 26vh;
+    font-size: 30px;
+}
+
+.header_banner h1 i:hover {
+    font-size: 32px;
+}
+
+.style_container {
+    width: 130vh;
+    height: 70vh;
+    background: rgb(7, 14, 39);
+    background: linear-gradient(43deg, rgba(7, 14, 39, 1) 0%, rgba(9, 19, 55, 1) 100%);
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.player p {
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.bottone {
+    margin: auto;
+    margin-left: 5px;
+    color: black;
+    border-radius: 10px;
+    border: black;
+    padding: 5px 15px;
+}
+
+.goto {
+    background: rgba(6, 44, 241, 0.46);
+}
+
+.bring {
+    background: rgba(6, 44, 241, 0.46);
+}
+
+input[value] {
+    color: white;
+}
+
+.playerlist {
+    color: white;
+}
+
+.playerlist th {
+    text-align: center;
+}
+
+.playerlist td {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid rgba(6, 44, 241, 0.46);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.playerlist tbody {
+    display: block;
+    width: 120vh;
+    overflow: auto;
+    height: 55vh;
+    margin: auto;
+    margin-left: 4%;
+}
+
+.fatture {
+    color: white;
+}
+
+.fatture th {
+    text-align: center;
+}
+
+.fatture td {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid rgba(6, 44, 241, 0.46);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.fatture tbody {
+    display: block;
+    width: 120vh;
+    overflow: auto;
+    height: 55vh;
+    margin: auto;
+    margin-left: 4%;
+}
+
+.search {
+    padding: 5px 20px;
+    width: 100%;
+}
+
+input[placeholder] {
+    text-align: center;
+}
+
+input[type="tel"] {
+    border: 1px solid white;
+}
+
+.playerlist .legenda {
+    border: none;
+    text-align: center;
+    padding-top: 20px
+}
+
+.fatture .legenda {
+    border: none;
+    text-align: center;
+    padding-top: 20px
+}
